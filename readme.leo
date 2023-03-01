@@ -29,3 +29,4 @@ github로부터 다운로드 받아서 사용하는 방법
 5. git pull origin master
 6. npm install
 7. npm run serve
+8. 웹브라우저에서 http://localhost:8080 실행
