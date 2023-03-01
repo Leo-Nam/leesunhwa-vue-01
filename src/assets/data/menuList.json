@@ -1,0 +1,34 @@
+[
+  {
+    "title": "mission1",
+    "icon": "mdi-account-outline",
+    "route": "/mission1",
+    "subNavs" : [
+      {
+        "title": "menu1-1",
+        "icon": "mdi-account",
+        "route": "/menu11"
+      },
+      {
+        "title": "menu1-2",
+        "icon": "mdi-account",
+        "route": "/menu12"
+      },
+      {
+        "title": "menu1-3",
+        "icon": "mdi-account",
+        "route": "/menu13"
+      }
+    ]
+  },
+  {
+    "title": "mission2",
+    "icon": "mdi-new-box",
+    "route": "/mission2"
+  },
+  {
+    "title": "mission3",
+    "icon": "mdi-new-box",
+    "route": "/mission3"
+  }
+]

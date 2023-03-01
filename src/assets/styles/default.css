@@ -1,5 +1,6 @@
 
 html{font-size:10px;} /*전체 프로젝트에 적용되는 기준 폰트로서 1rem값임*/
+a { text-decoration: none; }
 .container {
   width: 100vw;
 }

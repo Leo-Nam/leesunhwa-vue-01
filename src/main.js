@@ -1,5 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
+import router from "./router";
+// 라우터를 설치하면 이부분에서 라우터를 import합니다.
+// import 대상은 라우터를 관리하는 파일이 저장된 폴더의 이름입니다.
+// 보통 router라는 이름으로 사용합니다.
 import vuetify from './plugins/vuetify'
 // vuetify를 사용하려면 위와 같이 vuetify가 import되어 있어야 합니다.
 // vuetify는 터미널에서 vue add vuetify를 실행하면 자동으로 이곳에서 추가됩니다.
@@ -13,6 +17,8 @@ require('@/assets/styles/default.css')
 // 개별 component별로 최적화된 css파일을 만든후에 해당 컴포넌트의 style내부에서 import명령어로 불러들여도 됩니다.
 
 new Vue({
+  router,
+  // 라우터를 등록하는 부분입니다. 아래에는 뷰티파이가 등록되어 있네요
   vuetify,
   render: h => h(App)
 }).$mount('#app')
