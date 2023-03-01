@@ -60,7 +60,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   .margin-left-minus {
     margin-left: -40%
   }
@@ -83,5 +83,8 @@ export default {
   }
   .font-size-3 {
     font-size: 3.0rem
+  }
+  .height-20rem {
+    height: 20.0rem
   }
 </style>

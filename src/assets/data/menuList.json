@@ -3,7 +3,7 @@
     "title": "mission1",
     "icon": "mdi-account-outline",
     "route": "/mission1",
-    "subNavs" : [
+    "subMenus" : [
       {
         "title": "menu1-1",
         "icon": "mdi-account",
@@ -24,11 +24,45 @@
   {
     "title": "mission2",
     "icon": "mdi-new-box",
-    "route": "/mission2"
+    "route": "/mission2",
+    "subMenus" : [
+      {
+        "title": "menu2-1",
+        "icon": "mdi-account",
+        "route": "/menu21"
+      },
+      {
+        "title": "menu2-2",
+        "icon": "mdi-account",
+        "route": "/menu22"
+      },
+      {
+        "title": "menu2-3",
+        "icon": "mdi-account",
+        "route": "/menu23"
+      }
+    ]
   },
   {
     "title": "mission3",
     "icon": "mdi-new-box",
-    "route": "/mission3"
+    "route": "/mission3",
+    "subMenus" : [
+      {
+        "title": "menu3-1",
+        "icon": "mdi-account",
+        "route": "/menu31"
+      },
+      {
+        "title": "menu3-2",
+        "icon": "mdi-account",
+        "route": "/menu32"
+      },
+      {
+        "title": "menu3-3",
+        "icon": "mdi-account",
+        "route": "/menu33"
+      }
+    ]
   }
 ]

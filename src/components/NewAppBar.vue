@@ -11,8 +11,8 @@
           <v-app-bar-nav-icon></v-app-bar-nav-icon>
         </template>
 
-        <v-app-bar-title>Photos</v-app-bar-title>
-
+        <v-app-bar-title><v-icon>mdi-menu</v-icon></v-app-bar-title>
+        <v-spacer></v-spacer>111
         <template v-slot:append>
           <v-btn icon="mdi-dots-vertical"></v-btn>
         </template>

@@ -44,18 +44,18 @@
                   <!-- mouseOver와 mouseLeave 메소드가 mouseHover값을 토글시키는 기능을 함으로써 메뉴가 collapse될때는 서브메뉴가 사라지게 되고 -->
                   <!-- expand될때는 서브메뉴가 나타나게 되는것입니다. -->
                   <v-list-item
-                    v-for="eachNav in item.subNavs"
-                    :key="eachNav.title"
+                    v-for="subMenu in item.subMenus"
+                    :key="subMenu.title"
                     link
                   >
                   <!-- 이부분에서 서브메뉴가 나타나게 됩니다. -->
                   <!-- v-for를 사용함로써 서브메뉴 배열에 데이타가 존재하는 경우에만 작동하게 됩니다. -->
                   <!-- 서브메뉴가 없으면 v-show와 상관없이 나타나지 않고 작동하지 않습니다. -->
-                  <!-- 여기에서는 eachNav(배열의 값) 바로뒤에 idx를 사용하지 않았습니다. 사용하지 않아도 됩니다. -->
+                  <!-- 여기에서는 subMenu(배열의 값) 바로뒤에 idx를 사용하지 않았습니다. 사용하지 않아도 됩니다. -->
                     <v-list-item-content>
                       <v-list-item-title>
                         <span>
-                          <router-link :to="eachNav.route">{{ eachNav.title }}</router-link>
+                          <router-link :to="subMenu.route">{{ subMenu.title }}</router-link>
                           <!-- 위와 같이 스크립트의 연산결과 도출한 값을 dom에 바로 표시하는 방식은 수염괄호를 두번사용하면 됩니다({{ 값 }} <= 이런식) -->
                         </span>
                       </v-list-item-title>
