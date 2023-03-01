@@ -26,5 +26,6 @@ github로부터 다운로드 받아서 사용하는 방법
 2. cd vue-lesson-01
 3. git init
 4. git remote add origin https://github.com/Leo-Nam/leesunhwa-vue-01.git
-5. npm install
-6. npm run serve
+5. git pull origin master
+6. npm install
+7. npm run serve
